@@ -2,9 +2,9 @@ import smtplib
 from email.mime.text import MIMEText
 from email.utils import formataddr
 
-my_sender='1379826773@qq.com'    # 发件人邮箱账号
-my_pass = 'whztnrtsktbhbaci'              # 发件人邮箱密码(当时申请smtp给的口令)
-my_user='1379826773@qq.com'      # 收件人邮箱账号，我这边发送给自己
+my_sender='xxxxxxxxx@qq.com'    		# 发件人邮箱账号
+my_pass = 'xxxxxxxxxxxxxx'              # 发件人邮箱密码(当时申请smtp给的口令)
+my_user='xxxxxxxxxxx@qq.com'      		# 收件人邮箱账号，我这边发送给自己
 def mail():
     ret=True
     try:
